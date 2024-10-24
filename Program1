@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class progrm1 {
+    public static void main(String args[]){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter First integer");
+        int num1 = scanner.nextInt();
+        System.out.println("Enter Second integer");
+        int num2 = scanner.nextInt();
+        System.out.println("Addition"+(num1+num2));
+        System.out.println("Subbraction"+(num1-num2));
+        System.out.println("multiplication"+(num1*num2));
+        System.out.println("Division"+(num1/num2));
+
+    }
+
+}
