@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class program4 {
+
+        public static void main (String args[]){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter First integer:");
+        int num1 = scanner.nextInt();
+        System.out.println("Enter Second integer:");
+        int num2 = scanner.nextInt();
+            num1 += num2;
+            System.out.println("a += b: " + num1);
+
+           int c = num1 -= num2;
+            System.out.println("a -= b: " + c);
+
+            num1 *= num2;
+            System.out.println("a *= b: " + num1);
+
+            num1 /= num2;
+            System.out.println("a /= b: " + num1);
+    }
+    }
