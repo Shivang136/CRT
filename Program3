@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class program3 {
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter First integer:");
+        int num1 = scanner.nextInt();
+        System.out.println("Enter Second integer:");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Bitwise AND: " + (num1 & num2));
+        System.out.println("Bitwise OR: " + (num1 | num2));
+        System.out.println("Bitwise XOR: " + (num1 ^ num2));
+        System.out.println("Bitwise Complement of first integer: " + (~num1+1));
+        System.out.println("Bitwise Complement of first integer: " + (~num2+1));
+    }
+}
